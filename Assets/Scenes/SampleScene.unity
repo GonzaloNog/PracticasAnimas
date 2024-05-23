@@ -7584,6 +7584,7 @@ GameObject:
   - component: {fileID: 1184178113}
   - component: {fileID: 1184178115}
   - component: {fileID: 1184178116}
+  - component: {fileID: 1184178117}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -7698,7 +7699,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ffdf8bd0f43c94418629b41220377e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 3
 --- !u!61 &1184178116
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7744,6 +7745,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.62852246, y: 0.23102209}
   m_EdgeRadius: 0
+--- !u!95 &1184178117
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184178110}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9d11f79a5c0ffbb4e9d952e30a6ff6df, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
